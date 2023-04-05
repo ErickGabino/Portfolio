@@ -20,7 +20,7 @@
     $para = 'evelazqueztprog@gmail.com';
     $asunto = 'Contacto Portafolio';
 
-    @mail($para, $asunto, $mensaje, $header);
+    mail($para, $asunto, $mensaje, $header);
     echo "<script>alert('Correo Enviado Exitosamente. :)');</script>";
     echo "<script>setTimeout(\"location.href='../index.html'\",1000)</script>";
 
