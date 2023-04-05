@@ -621,4 +621,25 @@ footer .redes .linkedin:hover{background-color: #0077b5;transition: 0.8s ease-in
 	header{
 		background-size: cover;
 	}
+	.main .acerca-de .texto .writting1::after{
+		height: 125%;
+	}
+	.main .acerca-de .texto .writting2::after{
+		height: 125%;
+	}
+	.main .acerca-de .texto .writting3::after{
+		height: 125%;
+	}
+	.main .acerca-de .texto .writting4::after{
+		height: 125%;
+	}
+	.main .acerca-de .texto .writting5::after{
+		height: 125%;
+	}
+	.main .acerca-de .texto{
+		font-size: 15px;
+		line-height: 30px;
+		width: 100%;
+		margin: 80px auto 100px auto;
+	}
 }
