@@ -173,5 +173,8 @@
     </section>
   </footer>
   <script src="js/validacion.js"></script>
+  <?php
+  include('enviar.php');
+  ?>
 </body>
 </html>
