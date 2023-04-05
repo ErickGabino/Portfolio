@@ -55,3 +55,51 @@ header .cuerpo a:hover{
     font-size: 35px;
     transition: 2s;
 }
+
+@media screen and (max-width: 2100px){
+    header{
+       min-height: 1000px;
+    }
+   }
+
+@media screen and (max-width: 1300px){
+    header{
+       min-height: 600px;
+    }
+   }
+
+@media screen and (max-width: 920px){
+    header{
+       min-height: 1300px;
+    }
+   }
+
+@media screen and (max-width: 720px){
+ header{
+    min-height: 1500px;
+ }
+}
+
+@media screen and (max-width: 550px){
+    header{
+       min-height: 800px;
+    }
+}
+
+@media screen and (max-width: 414px){
+    header{
+       min-height: 900px;
+    }
+   }
+
+@media screen and (max-width: 380px){
+    header{
+       min-height: 700px;
+    }
+}
+
+@media screen and (max-width: 280px){
+    header{
+       min-height: 700px;
+    }
+   }
