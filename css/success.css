@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+/* Quitar barra desplazamiento */
+::-webkit-scrollbar { display: none; }
+
+body{
+    background-image: url('../img/wallpaper.jpg'), linear-gradient(to right,#37306B,#66347F, #9E4784, #280425);
+    background-blend-mode: multiply;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Ubuntu", sans-serif;
+}
+
+header{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    margin-bottom: 50px;
+    min-height: 550px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 35px;
+    box-shadow: 1px 1px 20px #232222;
+
+}
+
+header .titulo{
+    margin: 30px auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+header .titulo h1{
+    color: #ffffff;
+    font-size: 40px;
+}
+
+header .cuerpo{
+    text-align: center;
+    margin-top: 50px;
+}
+
+header .cuerpo a{
+    color: #fff;
+    font-size: 25px;
+}
+
+header .cuerpo a:hover{
+    color: #98ac41;
+    font-size: 35px;
+    transition: 2s;
+}
