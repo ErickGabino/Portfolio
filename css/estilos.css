@@ -336,7 +336,7 @@ header .contenedor-texto .texto .profesion{
 	border-radius: 10px;
 }
 
-.overlay1, .overlay2, .overlay3, .overlay4, .overlay5{
+.overlay1, .overlay2, .overlay3, .overlay4, .overlay5, .overlay6, .overlay7{
 	width: 100%;
 	height: 100%;
 	background: #000;
@@ -353,6 +353,8 @@ header .contenedor-texto .texto .profesion{
 .trabajo .thumb:hover .overlay3{opacity: 0.9;border: 2px solid #540599;cursor: pointer;}
 .trabajo .thumb:hover .overlay4{opacity: 0.9;border: 2px solid #540599;cursor: pointer;}
 .trabajo .thumb:hover .overlay5{opacity: 0.9;border: 2px solid #540599;cursor: pointer;}
+.trabajo .thumb:hover .overlay6{opacity: 0.9;border: 2px solid #540599;cursor: pointer;}
+.trabajo .thumb:hover .overlay7{opacity: 0.9;border: 2px solid #540599;cursor: pointer;}
 
 .main .trabajos .contenedor-trabajos .trabajo .descripcion{
 	text-align: center;
@@ -401,7 +403,7 @@ header .contenedor-texto .texto .profesion{
 	height: 200px;
 	text-align: center;
 	font-size: 1.5em;
-	margin-top: 20px;
+	margin-top: 30px;
 }
 
 .main .skills .contenedor .iconosSkills img{
@@ -416,7 +418,7 @@ header .contenedor-texto .texto .profesion{
 }
 
 .skillTXT{
-	color: black;;
+	color: black;
 }
 
 .html{color: #FF5733;}
@@ -458,6 +460,12 @@ header .contenedor-texto .texto .profesion{
 	transform: scale(1.1);
 	transition: 0.2s;
 }.js:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+}.bootstrap:hover{
+	transform: scale(1.1);
+	transition: 0.2s;
+}.jquery:hover{
 	transform: scale(1.1);
 	transition: 0.2s;
 }
